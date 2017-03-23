@@ -15,3 +15,7 @@ jar {
     baseName = 'hsleiden-IAD1'
     version =  '0.0.0'
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.4'   
+}
