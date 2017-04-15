@@ -1,4 +1,4 @@
-package nl.badmuts.graph;
+package nl.badmuts.datastructures.graph;
 
 public class Vertex {
     private String label;

@@ -1,4 +1,4 @@
-package nl.badmuts.graph;
+package nl.badmuts.datastructures.graph;
 
 import junit.framework.TestCase;
 import org.junit.Test;

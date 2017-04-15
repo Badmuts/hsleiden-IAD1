@@ -1,4 +1,4 @@
-package nl.badmuts.mergesort;
+package nl.badmuts.sorting.mergesort;
 
 import junit.framework.TestCase;
 import org.junit.Test;

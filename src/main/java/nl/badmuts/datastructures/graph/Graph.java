@@ -1,4 +1,4 @@
-package nl.badmuts.graph;
+package nl.badmuts.datastructures.graph;
 
 import java.util.ArrayList;
 import java.util.List;
