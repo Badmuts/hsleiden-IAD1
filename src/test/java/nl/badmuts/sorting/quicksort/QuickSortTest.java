@@ -19,9 +19,17 @@ public class QuickSortTest extends TestCase {
     }
 
     @Test
-    public void testQuickSort2() {
+    public void testSort() {
         int[] unsorted = new int[]{9, 1, 8, 5};
         int[] expected = new int[]{1, 5, 8, 9};
+        QuickSort.sort(unsorted);
+        Assert.assertArrayEquals(expected, unsorted);
+    }
+
+    @Test
+    public void testNegatives() {
+        int[] unsorted = new int[]{-9, -1, -8, -5};
+        int[] expected = new int[]{-9, -8, -5, -1};
         QuickSort.sort(unsorted);
         Assert.assertArrayEquals(expected, unsorted);
     }
