@@ -24,6 +24,7 @@ public class HeapSortTest extends TestCase {
         Assert.assertArrayEquals(expected, unsorted);
     }
 
+    @Test
     public void testNegatives() throws Exception {
         int[] unsorted = new int[]{-9, -1, -8, -5};
         int[] expected = new int[]{-9, -8, -5, -1};
